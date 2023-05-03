@@ -1,7 +1,5 @@
 ---
-- name: Openstack Updates
-  hosts: openstack
-  remote_user: root
+- name: System Operating Update
   become: true
   tasks:
     - name: System Operating Update
